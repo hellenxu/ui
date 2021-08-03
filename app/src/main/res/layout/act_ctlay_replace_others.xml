@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -65,7 +65,7 @@
         android:text="Chinese" android:background="@color/brown_color" app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toRightOf="@id/tvDivider4" app:layout_constraintRight_toRightOf="parent"/>
 
-    <androidx.constraintlayout.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide" app:layout_constraintGuide_percent="0.11"
         android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal"/>
 
@@ -85,8 +85,8 @@
         app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
         android:layout_width="wrap_content" android:layout_height="wrap_content" />
 
-    <androidx.constraintlayout.Group
+    <androidx.constraintlayout.widget.Group
         android:visibility="invisible"
         android:id="@+id/group_scroll" app:constraint_referenced_ids="nsv_content,btn_terms"
         android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</androidx.constraintlayout.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

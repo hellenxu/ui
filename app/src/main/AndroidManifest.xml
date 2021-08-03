@@ -41,7 +41,9 @@
 
         <activity android:name=".drawing.SampleActivity" />
 
-        <activity android:name=".softkeyboard.MainActivity" android:windowSoftInputMode="adjustResize">
+        <activity android:name=".softkeyboard.MainActivity" android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".viewpager2.SampleActivity">
         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

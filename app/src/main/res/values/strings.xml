@@ -70,4 +70,6 @@ Additionally, articles are not normally used:</string>
 	<string name="text_focused">Focused</string>
 	<string name="text_other">Other</string>
 
+	<string name="medium_text">No article is used with plural or uncountable nouns when the referent is indefinite (just as in the generic definite case described above). However, in such situations, the determiner some is often added (or any in negative contexts and in many questions). For example: There are apples in the kitchen or There are some apples in the kitchen. or There are some apples in the kitchen. or There are some apples in the kitchen.</string>
+
 </resources>
